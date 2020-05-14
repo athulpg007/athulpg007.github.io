@@ -1,5 +1,6 @@
 ---
 layout: default
+title : Athul Pradeepkumar Girija
 ---
 # About Me
 

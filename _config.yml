@@ -22,7 +22,7 @@ title: Athul Pradeepkumar Girija
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Ph.D. Candidate in Aeronautics and Astronautics at Purdue University
-baseurl: "athulpg007.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll

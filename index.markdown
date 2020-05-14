@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 # About Me
 
 ## Welcome!
@@ -12,6 +11,6 @@ I am interested in advanced mission concepts and technology for planetary explor
 
 
 <center><img src="/photos/jpl-psss-2018.jpg" alt="Photo of me at the NASA Jet Propulsion Laboratory, during the Planetary Science Summer Seminar (PSSS), August 2018" width="800"/></center>  
-Photo of me at the NASA Jet Propulsion Laboratory, during the [Planetary Science Summer Seminar (PSSS)](https://psss.jpl.nasa.gov/), August 2018.
+Photo of me at the NASA Jet Propulsion Laboratory, during the [Planetary Science Summer Seminar (PSSS)](https://psss.jpl.nasa.gov/), August 2018
 
 

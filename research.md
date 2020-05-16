@@ -11,6 +11,10 @@ I provide a brief summary of my research here, with the projects listed in rever
 
 ### A Systems Framework For Rapid Conceptual Design of Aerocapture Missions
 
+<center><img src="/research/aerocapture.png" alt="Schematic showing the various phases of the aerocapture. Atmospheric height is greatly exaggerated for clarity." width="600"/></center> 
+Schematic showing the various phases of the aerocapture. Atmospheric height is greatly exaggerated for clarity. 
+
+
 The basic purpose of this work is to provide a systems engineering framework for rapid aerocapture mission formulation, starting from a high-level mission objective(s) to a viable mission concept. The mission designer has to select a mutually compatible, harmonious set of interconnected systems, which will accomplish the stated objective(s) within the technical, cost, schedule, and risk constraints. 
 
 <center><img src="/research/systems-hexagon.png" alt="Key elements of the aerocapture mission concept." width="400"/></center>  

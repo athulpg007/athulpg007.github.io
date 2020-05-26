@@ -23,7 +23,7 @@ AMAT supported planetary destinations across the Solar System
 
 AMAT has been extensively used in various aerocapture mission studies at the [Advanced Astrodynamics Concepts (AAC)](https://engineering.purdue.edu/AAC/) research group at Purdue University in active collaboration with the NASA Jet Propulsion Laboratory (JPL). 
 
-To learn more about getting started with AMAT and installation instructions, please refer to the [AMAT documentation](https://amat.readthedocs.io). The stable version of the source code is available on [GitHub](https://github.com/athulpg007/AMAT). **Note:** The GitHub repository is not currently public, as I am waiting for some data clearances to come through before they are available for general public use. Please check back at a later date. 
+To learn more about getting started with AMAT and installation instructions, please refer to the [AMAT documentation](https://amat.readthedocs.io). The stable version of the source code is available on [GitHub](https://github.com/athulpg007/AMAT).  
 
 # Tutorials (coming soon)
 

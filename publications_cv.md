@@ -24,7 +24,7 @@ To view my full academic CV, click [here](./athul_cv.pdf).
 
 ### Publications
 
-* **A. P. Girija**, S. J. Saikia, J. M. Longuski, S. Bhaskaran, M. S. Smith, and J. A. Cutts, Feasibility and Performance Analysis of Neptnune Aerocapture Using Heritage Blunt-Body Aeroshells, <em>Journal of Spacecraft and Rockets</em>, Accepted, April 2020. [[Preprint]](./papers/neptune-paper.pdf)  
+* **A. P. Girija**, S. J. Saikia, J. M. Longuski, S. Bhaskaran, M. S. Smith, and J. A. Cutts, [Feasibility and Performance Analysis of Neptnune Aerocapture Using Heritage Blunt-Body Aeroshells](https://arc.aiaa.org/doi/abs/10.2514/1.A34719), <em>Journal of Spacecraft and Rockets</em>, Article in Advance, July 2020. [[PDF]](./papers/1.a34719.pdf)  
 
 * **A. P. Girija**, Y. Lu, and S. J. Saikia, [Feasibility and Mass-Benefit Analysis of Aerocapture for Missions to Venus](https://arc.aiaa.org/doi/abs/10.2514/1.A34529), <em>Journal of Spacecraft and Rockets</em>, Vol. 57, No. 1, January 2020. [[PDF]](./papers/1.a34529.pdf)
 

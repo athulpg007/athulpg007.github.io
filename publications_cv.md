@@ -69,6 +69,21 @@ To view my full academic CV, click [here](./athul_cv.pdf).
 
 * E. Shibata, Y. Lu, **A. P. Girija**, J. A. Cutts, and S. J. Saikia, A  Venus  Atmospheric Sample  Return  Mission  Concept: Feasibility and Technology Requirements, Planetary Science Vision 2050 Workshop, NASA Headquarters, Washington D.C., February 27--28, 2017. [[PDF]](https://www.hou.usra.edu/meetings/V2050/eposter/8164.pdf)
 
+### Planetary Decadal Survey 2023-2032 White Papers (co-author)
+
+* Alexander Austin et al. (NASA Jet Propulsion Lab), Enabling and Enhancing Science Exploration
+Across the Solar System: Aerocapture Technology for SmallSat to Flagship Missions. [[PDF]](./papers/Aerocapture_Decadal_White_Paper_Alex.pdf)
+
+* Soumyo Dutto et al. (NASA Langley Research Center), Aerocapture as an Enhancing Option for Ice
+Giants Missions. [[PDF]](./papers/Ice_Giants_Aerocapture_White_Paper_Som.pdf)
+
+* Sanjay Limaye et al. (University of Wisconsin-Madison), Venus Observing System (VOS): Monitoring Climate, Surface, Atmospheric Escape and Search for Bio-signatures. [[PDF]](./papers/VOS_White_paper-VEXAG-4_Nov_2019_Limaye.pdf)
+
+* Ian Cohen et al. (Johns Hopkins University-Applied Physics Lab), New Frontiers-class Uranus Orbiter : Exploring the feasibility of achieving multidisciplinary science with a mid-scale mission. [[PDF]](./papers/2020_Decadal_WhitePaper_NFUranus_vFINAL_Cohen.pdf)
+
+* James Arnold et al. (NASA Ames Research Center), Heatshields for Aerogravity Assist Vehicles Whose Deceleration at Titan Saves Mass for Future Flagship Class Exploration of Enceladus. [[PDF]](./papers/Titan_Aerogravity_Assist_Arnold_Draft.pdf)
+
+
 
 
 

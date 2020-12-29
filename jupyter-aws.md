@@ -8,6 +8,9 @@ title : Deploying Jupyter Notebooks on AWS EC2
 
 <center><img src="/software/aws/logo.png" alt="AWS home page" width="600"/></center> Attribution: Creative Commons, Amazon Web Sevices
 
+Jupyter Notebooks are very popular in the scientific programming community due to their ability to integrate code, equations, visualizations, and narrative text all into one interactive document. When running a Jupyter Notebook on a local machine, we are limited by the memory and computing power available on the laptop or desktop computer.  Amazon Web Services (AWS) Elastic Compute Cloud (EC2) provides on-demand, reliable, scalable, and inexpensive cloud computing services. This step-by-step tutorial will guide you to deploy Jupyter notebooks on an EC2 instance, providing you with the ability to combine the interactive functionality of Jupyter notebooks with the easily scalable computing capabilities offered by EC2. This is especially useful for high-perfomance computing and deep learning problems which can leverage parallel processing and GPU computing architectures provided by EC2 to run these codes much faster than on your local machine, while still being able to interactively change your code and visualize the results using Jupyter notebooks.
+
+
 This tutorial will help you learn how to set up an AWS EC2 instance and run Jupyter notebooks on the cloud. You will need an AWS account, and a Linux/MacOS computer with root priveleges. This process is somewhat involved, and [AWS Sagemaker](https://aws.amazon.com/sagemaker/) offers a quick way of setting up a Jupyter Notebook on AWS if you do not want to get into the details. However, setting up the EC2 server and Jupyter notebook yourself will provide you much more control and flexibility over the whole process. 
 
 1. Go to [aws.amazon.com](https://aws.amazon.com) and sign up for an account if you do not already have one.

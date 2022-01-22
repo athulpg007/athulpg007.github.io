@@ -12,17 +12,26 @@ title: Publications and CV
 
 **Ph.D. in Aeronautics & Astronautics**, Purdue University  
 *Graduate minor in Aerospace Systems*  
-2016 - 2021 (expected)  
+
+Aug. 2016 - Aug. 2021; GPA: 3.90/4.00. 
+Dissertation: [A Systems Framework and Analysis Tool for Rapid Conceptual Design of Aerocapture Missions](https://hammer.purdue.edu/articles/thesis/A_Systems_Framework_and_Analysis_Tool_for_Rapid_Conceptual_Design_of_Aerocapture_Missions/14903349)
 Advisors: Dr. Sarag J. Saikia and Prof. James M. Longuski
 
-**Dual Degree (B.Tech + M. Tech ) in Aerospace Engineering**, Indian Institute of Technology (IIT), Madras  
-*With Honors*  
-2011 - 2016  
+**Dual Degree (B.Tech + M. Tech ) in Aerospace Engineering**, Indian Institute of Technology (IIT), Madras with Honors. 
+
+Jul. 2011 - Jul. 2016. GPA: 9.16/10.00.  
+Dissertation: [Passive Control Of Combustion Instabilities Using Multiple Flames / Distributed Combustion Zone](https://www.researchgate.net/publication/333632783_Passive_Control_Of_Combustion_Instabilities_Using_Multiple_Flames_Distributed_Combustion_Zone)
 Advisor: Prof. S. R. Chakravarthy
 
-To view my full academic CV, click [here](./athul_cv.pdf).
+To view my full academic CV, click [here](./athul_cv.pdf). (Updated November 2021)
 
 ### Publications
+
+* **A. P. Girija**, S. J. Saikia, J. M. Longuski, Y. Lu and J. A. Cutts, Quantitiative Assessment of Aerocapture and Applications to Future Solar System Exploration. Accepted. *Journal of Spacecraft and Rockets* (2022).
+
+* **A. P. Girija**, S. J. Saikia, J. M. Longuski, J. A. Cutts, [AMAT: A Python package for rapid conceptual design of aerocapture and atmospheric Entry, Descent, and Landing (EDL) missions in a Jupyter environment](https://joss.theoj.org/papers/10.21105/joss.03710), <em>Journal of Open Source Software (6)(67)</em>, November 2021. [[PDF]](https://www.theoj.org/joss-papers/joss.03710/10.21105.joss.03710.pdf)  
+
+
 
 * **A. P. Girija**, S. J. Saikia, J. M. Longuski, S. Bhaskaran, M. S. Smith, and J. A. Cutts, [Feasibility and Performance Analysis of Neptnune Aerocapture Using Heritage Blunt-Body Aeroshells](https://arc.aiaa.org/doi/abs/10.2514/1.A34719), <em>Journal of Spacecraft and Rockets</em>, Article in Advance, July 2020. [[PDF]](./papers/1.a34719.pdf)  
 
@@ -30,7 +39,6 @@ To view my full academic CV, click [here](./athul_cv.pdf).
 
 * S. Jarmak, E. Leonard, A. Akins, E. Dahl, D. R. Cremons, S. Cofield, A. Curtis, C. Dong, E. T. Dunham, B. Journaux, D. Murakami, W. Ng, M. Piquette, **A. P. Girija**, K. Rink, L. Schurmeier, N. Stein, N. Tallarida, M. Telus, L. Lowes, C. Budney, K. L. Mitchell, [QUEST: A New Frontiers Uranus Orbiter Mission Concept Study](https://doi.org/10.1016/j.actaastro.2020.01.030), <em>Acta Astronautica</em>, Vol. 170, May 2020. [[PDF]](./papers/1-s2.0-S0094576520300412-main.pdf)
 
-* **A. P. Girija**, Y. Lu, A. Mudek, A. Arora, S. J. Saikia, J. M. Longuski, and J. A. Cutts, Feasibility and Mass-Benefit of Aerocapture for Future Missions". Forthcoming article.
 
 * **A. P. Girija**, Y. Lu, A. Arora, R. Agrawal, J. Prabha, M. de Jong, B. Aiken, M. Rajapakshe, M. Kent, S. J. Saikia, and J. M. Longuski, Purdue Single Wheel Test Rig Facility for Ocean World Rovers. Forthcoming article.
 

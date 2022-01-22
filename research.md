@@ -7,15 +7,15 @@ title: Research
 
 I provide a brief summary of my research here, with the projects listed in reverse chronological order. Click on the project title to learn more about each project (coming soon).
 
-## Current research (my PhD work)
+## Current research (my Ph.D. work)
 
-### A Systems Framework For Rapid Conceptual Design of Aerocapture Missions
+### A Systems Framework and Analysis Tool For Rapid Conceptual Design of Aerocapture Missions
 
 <center><img src="/research/aerocapture.png" alt="Schematic showing the various phases of the aerocapture. Atmospheric height is greatly exaggerated for clarity." width="600"/></center> 
 Schematic showing the various phases of the aerocapture. Atmospheric height is greatly exaggerated for clarity. 
 
 
-The basic purpose of this work is to provide a systems engineering framework for rapid aerocapture mission formulation, starting from a high-level mission objective(s) to a viable mission concept. The mission designer has to select a mutually compatible, harmonious set of interconnected systems, which will accomplish the stated objective(s) within the technical, cost, schedule, and risk constraints. 
+The basic objective of this work is to provide a systems engineering framework for rapid aerocapture mission formulation, starting from a high-level mission objective(s) to a viable mission concept. The mission designer has to select a mutually compatible, harmonious set of interconnected systems, which will accomplish the stated objective(s) within the technical, cost, schedule, and risk constraints. For more details, please see my [Ph.D. Dissertation](https://hammer.purdue.edu/articles/thesis/A_Systems_Framework_and_Analysis_Tool_for_Rapid_Conceptual_Design_of_Aerocapture_Missions/14903349). An article is currently under publication in the *Journal of Spacecraft and Rockets*.
 
 <center><img src="/research/systems-hexagon.png" alt="Key elements of the aerocapture mission concept." width="400"/></center>  
 Key systems relevant to an aerocapture mission concept. All images in the public domain. Credit: U.S. Air Force, NASA, JPL, and ESA.
@@ -25,7 +25,7 @@ A systems view of the aerocapture concept showing the flow down from the high-le
 
 ### Purdue Single-Wheel Test Rig for Ocean World Rovers
 
-The NASA COLDTech effort focuses on design and construction of a single-wheel test rig for planetary exploration rovers on ocean worlds such as Europa.
+The NASA COLDTech effort focuses on design and construction of a single-wheel test rig for planetary exploration rovers on ocean worlds such as Europa. For more details, please see the project [technical report](./research/ow-final-report.pdf). 
 
 <center><img src="/research/test-rig.jpg" alt="Single-Wheel Test Rig for Ocean World rover tires." width="800"/></center>  
 Single-Wheel Test Rig for Ocean World rover tires
@@ -36,7 +36,7 @@ Single-Wheel Test Rig for Ocean World rover tires
 
 ### Neptune Aerocapture Using Heritage Blunt-Body Aeroshells
 
-The lack of a heritage mid-L/D aeroshell presents a major hurdle for Neptune aerocapture, as the development a new entry vehicle incurs significant time and investment. Techniques which may allow Neptune aerocapture to be feasible using heritage low-L/D blunt-body aeroshells are investigated that obviate the need for mid-L/D aeroshells. 
+The lack of a heritage mid-L/D aeroshell presents a major hurdle for Neptune aerocapture, as the development a new entry vehicle incurs significant time and investment. Techniques which may allow Neptune aerocapture to be feasible using heritage low-L/D blunt-body aeroshells are investigated that obviate the need for mid-L/D aeroshells. For more details, please see the [article](./papers/1.a34719.pdf) published *Journal of Spacecraft and Rockets*, (2020).
 
 <center><img src="/research/neptune-feasibility.png" alt="Trade space visualization for Neptune aerocapture mission design" width="800"/></center>  
 Trade space visualization for Neptune aerocapture mission design
@@ -44,7 +44,7 @@ Trade space visualization for Neptune aerocapture mission design
 ### Feasibility Assessment of Aerocapture for Venus Missions
 
 A numerical assessment of the feasibility of aerocapture at Venus is presented, and the mass benefit of aerocapture is compared with propulsive orbit insertion. This study considers constraints imposed by entry corridor, deceleration loads, and aerodynamic heating on aerocapture for two vehicle control techniques: lift modulation and drag modulation. Feasibility charts are presented to graphically visualize the aerocapture design space spanning
-interplanetary trajectory and vehicle performance.
+interplanetary trajectory and vehicle performance. For more details, please see the [article](./papers/1.a34529.pdf) published *Journal of Spacecraft and Rockets* (2020).
 
 <figure class="half" style="display:flex">
     <img style="width:900px" src="/research/venus-lift.png">

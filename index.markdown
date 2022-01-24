@@ -11,7 +11,7 @@ My name is Athul and I will be shortly be starting my new role as Quality Assura
 I am interested in advanced mission concepts and technology development for planetary exploration. During my Ph.D work at the [Advanced Astrodynamics Concepts](https://engineering.purdue.edu/AAC/) lab at Purdue, primary research focus was on rapid mission design and analysis of aerocapture concepts. I have expertise in the general areas of space mission architecture and mission formulation, systems engineering, Entry Descent and Landing (EDL) systems, and design of planetary probes. Although my doctoral research dealt with aerocapture, I have worked on other technologies such as robotic surface mobility systems, sample return mission architectures, and ice giant mission concept studies. I also have expertise in mechanical design and fabrication of test equipment, scientific programming, data analysis and technical writing. You can learn more about me by visiting my [LinkedIn](https://www.linkedin.com/in/athulpg007/) page. You can learn more about my publications at my [Google Scholar](https://scholar.google.com/citations?user=XxLVDPEAAAAJ&hl=en) page. You can read more about my research in [Research](https://athulpg007.github.io/research.html) and [Publications/CV](https://athulpg007.github.io/publications_cv.html) tabs!
 
 
-<center><img src="/photos/jpl-psss-2018.jpg" alt="Photo of me at the NASA Jet Propulsion Laboratory, during the Planetary Science Summer Seminar (PSSS), August 2018" width="800"/></center>  
-Photo of me at the NASA Jet Propulsion Laboratory, during the [Planetary Science Summer Seminar (PSSS)](https://psss.jpl.nasa.gov/), August 2018
+<center><img src="/personal/pawnee-peak.jpg" alt="Pawnee Peak summit" width="1200"/></center> 
+Pawnee Peak summit (12,943 ft), Indian Peaks Wilderness, Colorado (October 2021).
 
 

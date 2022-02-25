@@ -23,17 +23,16 @@ Jul. 2011 - Jul. 2016. GPA: 9.16/10.00.
 Dissertation: [Passive Control Of Combustion Instabilities Using Multiple Flames / Distributed Combustion Zone](https://www.researchgate.net/publication/333632783_Passive_Control_Of_Combustion_Instabilities_Using_Multiple_Flames_Distributed_Combustion_Zone)
 Advisor: Prof. S. R. Chakravarthy
 
-To view my full academic CV, click [here](./athul_cv.pdf). (Updated November 2021)
+To view my full academic CV, click [here](./athul_cv.pdf). (Updated January 2022)
 
 ### Publications
 
-* **A. P. Girija**, S. J. Saikia, J. M. Longuski, Y. Lu and J. A. Cutts, Quantitiative Assessment of Aerocapture and Applications to Future Solar System Exploration. Accepted. *Journal of Spacecraft and Rockets* (2022).
+* **A. P. Girija**, S. J. Saikia, J. M. Longuski, Y. Lu and J. A. Cutts, [Quantitiative Assessment of Aerocapture and Applications to Future Solar System Exploration](https://arc.aiaa.org/doi/10.2514/1.A35214), <em>Journal of Spacecraft and Rockets</em>, Articles in Advance, February 2022. [[PDF]](./papers/1.a35214.pdf) 
 
 * **A. P. Girija**, S. J. Saikia, J. M. Longuski, J. A. Cutts, [AMAT: A Python package for rapid conceptual design of aerocapture and atmospheric Entry, Descent, and Landing (EDL) missions in a Jupyter environment](https://joss.theoj.org/papers/10.21105/joss.03710), <em>Journal of Open Source Software (6)(67)</em>, November 2021. [[PDF]](https://www.theoj.org/joss-papers/joss.03710/10.21105.joss.03710.pdf)  
 
 
-
-* **A. P. Girija**, S. J. Saikia, J. M. Longuski, S. Bhaskaran, M. S. Smith, and J. A. Cutts, [Feasibility and Performance Analysis of Neptnune Aerocapture Using Heritage Blunt-Body Aeroshells](https://arc.aiaa.org/doi/abs/10.2514/1.A34719), <em>Journal of Spacecraft and Rockets</em>, Article in Advance, July 2020. [[PDF]](./papers/1.a34719.pdf)  
+* **A. P. Girija**, S. J. Saikia, J. M. Longuski, S. Bhaskaran, M. S. Smith, and J. A. Cutts, [Feasibility and Performance Analysis of Neptnune Aerocapture Using Heritage Blunt-Body Aeroshells](https://arc.aiaa.org/doi/abs/10.2514/1.A34719), <em>Journal of Spacecraft and Rockets</em>, Vol. 57, No. 6, July 2020. [[PDF]](./papers/1.a34719.pdf)  
 
 * **A. P. Girija**, Y. Lu, and S. J. Saikia, [Feasibility and Mass-Benefit Analysis of Aerocapture for Missions to Venus](https://arc.aiaa.org/doi/abs/10.2514/1.A34529), <em>Journal of Spacecraft and Rockets</em>, Vol. 57, No. 1, January 2020. [[PDF]](./papers/1.a34529.pdf)
 

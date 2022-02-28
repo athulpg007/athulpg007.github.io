@@ -10,6 +10,11 @@ title : Personal
 <center><img src="/personal/places.png" alt="Places I have been to." width="1200"/></center> 
 Places I have been to. More coming soon!
 
+<center><img src="/personal/pawnee-pass.jpg" alt="Pawnee Pass" width="1200"/></center> 
+Pawnee Pass, Continental Divide, 12550 ft, Colorado (October 3, 2021).
+
+<center><img src="/personal/isabelle-glacier.jpg" alt="Isabelle Glacier" width="1200"/></center> 
+Isabelle Glacier, 12400 ft, Indian Peaks Wilderness, Colorado (September 2021).
 
 <center><img src="/personal/isabelle.jpg" alt="Isabelle Glacier Trail" width="1200"/></center> 
 Isabelle Glacier Trail, Indian Peaks Wilderness, Colorado (September 2021).
@@ -17,9 +22,19 @@ Isabelle Glacier Trail, Indian Peaks Wilderness, Colorado (September 2021).
 <center><img src="/personal/green-mountain.jpg" alt="Green Mountain" width="1200"/></center> 
 Green Mountain, Lakewood, CO (August 2021).
 
+<center><img src="/personal/turkey-run.jpg" alt="Turkey Run State Park" width="1200"/></center> 
+Turkey Run State Park, Champaign, IL (July 2021).
+
+<center><img src="/personal/indiana-dunes.jpg" alt="Indiana Dunes National Park" width="1200"/></center> 
+Indiana Dunes National Park, Lake Michigan (May 2021).
+
 
 <center><img src="/personal/ward.jpg" alt="Ward, Colorado" width="1200"/></center> 
 Ward, Colorado (December 2020).
+
+<center><img src="/personal/monument-valley.jpg" alt="Monument Valley" width="1200"/></center> 
+Monument Valley, Utah (October 2020).
+
 
 <center><img src="/personal/arches.jpg" alt="Arches National Park" width="1200"/></center> 
 Arches National Park, Utah (October 2020).
@@ -33,6 +48,9 @@ Mt. Toll, Colorado (September 2020).
 
 <center><img src="/personal/pikes-peak.jpg" alt="Pikes Peak Summit" width="1200"/></center> 
 Pikes Peak Summit, Colorado Springs (August 2020).
+
+<center><img src="/personal/clinton-gulch.jpg" alt="Clinton Gulch Reservor" width="1200"/></center> 
+Clinton Gulch Reservoir, Leadville, Colorado (August 2020).
 
 
 <center><img src="/personal/florida.jpg" alt="Key West, Florida" width="1200"/></center> 
@@ -49,9 +67,20 @@ Hoover Dam, Nevada (December 2019).
 <center><img src="/personal/death-valley.jpg" alt="Death Valley, California" width="1200"/></center> 
 Death Valley, California (December 2019).
 
+<center><img src="/personal/furnace-creek.jpg" alt="Death Valley, California" width="1200"/></center> 
+Death Valley, California (December 2019).
+
 
 <center><img src="/personal/maine.jpg" alt="Portland, Maine" width="1200"/></center> 
 Acadia National Park, Maine (August 2019).
+
+<center><img src="/personal/dagenham.jpg" alt="Dagenham, UK" width="1200"/></center> 
+Dagenham, London, United Kingdom (July 2019).
+
+
+<center><img src="/personal/dover.jpg" alt="White Cliffs of Dover" width="1200"/></center> 
+White Cliffs of Dover, United Kingdom (July 2019).
+
 
 <center><img src="/personal/oxford.jpg" alt="Oxford, United Kingdom" width="1200"/></center> 
 Oxford, United Kingdom (July 2019).
@@ -69,6 +98,8 @@ Times Square, New York, NY (August 2018).
 <center><img src="/personal/los-angeles.jpg" alt="Los Angeles" width="1200"/></center> 
 Los Angeles, CA (August 2018).
 
+<center><img src="/personal/team-x.jpg" alt="Team X, NASA JPL" width="1200"/></center> 
+Jet Propulsion Laboratory, Pasadena, CA (August 2018).
 
 <center><img src="/personal/jpl.jpg" alt="Jet Propulsion Laboratory" width="1200"/></center> 
 Jet Propulsion Laboratory, Pasadena, CA (August 2018).
@@ -82,6 +113,9 @@ Boulder, Colorado (June 2018).
 
 <center><img src="/personal/dubai.jpg" alt="Arabian Desert" width="1200"/></center> 
 Arabian Desert, Dubai, United Arab Emirates (December 2017).
+
+<center><img src="/personal/sikkim.jpg" alt="Zero Point, Sikkim" width="1200"/></center> 
+Yumthang Valley, Sikkim, India (December 2017).
 
 
 <center><img src="/personal/apl.jpg" alt="Applied Physics Lab" width="1200"/></center> 

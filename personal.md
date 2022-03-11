@@ -10,6 +10,9 @@ title : Personal
 <center><img src="/personal/places.png" alt="Places I have been to." width="1200"/></center> 
 Places I have been to. More coming soon!
 
+<center><img src="/personal/zubrin.jpg" alt="with Dr. Robert Zubrin" width="1200"/></center> 
+With Dr. Robert Zubrin, Pioneer Astronautics, Lakewood, Colorado (January 2022).
+
 <center><img src="/personal/pawnee-pass.jpg" alt="Pawnee Pass" width="1200"/></center> 
 Pawnee Pass, Continental Divide, 12550 ft, Colorado (October 3, 2021).
 

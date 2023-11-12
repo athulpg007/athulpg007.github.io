@@ -5,9 +5,9 @@
     
     <meta charset="UTF-8">
 
-<!-- Begin Jekyll SEO tag v2.6.1 -->
+<!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Deploying Jupyter Notebooks on AWS EC2 | Athul Pradeepkumar Girija</title>
-<meta name="generator" content="Jekyll v3.8.7" />
+<meta name="generator" content="Jekyll v3.9.3" />
 <meta property="og:title" content="Deploying Jupyter Notebooks on AWS EC2" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Ph.D. Astrodynamics QA Engineer, LeoLabs" />
@@ -15,8 +15,11 @@
 <link rel="canonical" href="http://0.0.0.0:4000/jupyter-aws.html" />
 <meta property="og:url" content="http://0.0.0.0:4000/jupyter-aws.html" />
 <meta property="og:site_name" content="Athul Pradeepkumar Girija" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Deploying Jupyter Notebooks on AWS EC2" />
 <script type="application/ld+json">
-{"headline":"Deploying Jupyter Notebooks on AWS EC2","@type":"WebPage","description":"Ph.D. Astrodynamics QA Engineer, LeoLabs","url":"http://0.0.0.0:4000/jupyter-aws.html","@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Ph.D. Astrodynamics QA Engineer, LeoLabs","headline":"Deploying Jupyter Notebooks on AWS EC2","url":"http://0.0.0.0:4000/jupyter-aws.html"}</script>
 <!-- End Jekyll SEO tag -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -133,7 +136,7 @@
   <li>
     <p>Now we will SSH into the remote computer. Open a terminal, go to the location where the key pair. In my case, the file is located in the Downloads folder. So I will open a terminal and cd into that folder. You will need to first change permissions on the key file to avoid accidental overwriting. Make sure to replace “aws-ec2-key-01.pem” with your key pair name. Make sure the key pair is actually present in the terminal location. We will then ssh into the remote computer. Make sure to change the key pair name and the public IPv4 DNS with your own.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd Downloads
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd Downloads
 chmod 400 aws-ec2-key-01.pem
 ssh -i aws-ec2-key-01.pem ubuntu@ec2-54-172-185-5.compute-1.amazonaws.com 
 </code></pre></div>    </div>
@@ -146,7 +149,7 @@ ssh -i aws-ec2-key-01.pem ubuntu@ec2-54-172-185-5.compute-1.amazonaws.com
   <li>
     <p>We have finished setting up the EC2 instance and are now able to access it via SSH. We will noe proceed to set up Jupyter Notebooks on this instance. First we will download and install Ananconda. You may want to replace the Anaconda repository link with a more updated version from the <a href="https://repo.anaconda.com/archive/">Anaconda archive</a>.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh 
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh 
 </code></pre></div>    </div>
 
     <center><img src="/software/aws/aws-16.png" alt="Download Anaconda" width="1200" /></center>
@@ -155,13 +158,13 @@ ssh -i aws-ec2-key-01.pem ubuntu@ec2-54-172-185-5.compute-1.amazonaws.com
   <li>
     <p>Install Anaconda. Review and accept the license terms and choose the default install location. It will take a few minutes to install the packages.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash Anaconda3-5.3.1-Linux-x86_64.sh
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash Anaconda3-5.3.1-Linux-x86_64.sh
 </code></pre></div>    </div>
     <center><img src="/software/aws/aws-17.png" alt="Download Anaconda" width="1200" /></center>
     <p><br /></p>
   </li>
   <li>
-    <p>When asked if you want the installer to initialize Anaconda3 in your <code class="highlighter-rouge">/home/ubuntu/.bashrc</code>, select <code class="highlighter-rouge">Yes</code>. You can skip the installation of Microsoft Visual Studio.</p>
+    <p>When asked if you want the installer to initialize Anaconda3 in your <code class="language-plaintext highlighter-rouge">/home/ubuntu/.bashrc</code>, select <code class="language-plaintext highlighter-rouge">Yes</code>. You can skip the installation of Microsoft Visual Studio.</p>
 
     <center><img src="/software/aws/aws-18.png" alt="Initialize in .bashrc" width="1200" /></center>
     <p><br /></p>
@@ -175,15 +178,15 @@ ssh -i aws-ec2-key-01.pem ubuntu@ec2-54-172-185-5.compute-1.amazonaws.com
   <li>
     <p>Use the PATH variable to allow conda commands to be called from anywhere on the remote computer.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export PATH=~/anaconda3/bin:$PATH
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export PATH=~/anaconda3/bin:$PATH
 </code></pre></div>    </div>
     <center><img src="/software/aws/aws-20.png" alt="Set PATH." width="1200" /></center>
     <p><br /></p>
   </li>
   <li>
-    <p>As a general development rule, it is good practice to create a new conda environemnt so that you get a sandboxed environment which is isolated from your system-wide python installation. Create a new python3 conda environment called <code class="highlighter-rouge">env1</code>.</p>
+    <p>As a general development rule, it is good practice to create a new conda environemnt so that you get a sandboxed environment which is isolated from your system-wide python installation. Create a new python3 conda environment called <code class="language-plaintext highlighter-rouge">env1</code>.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda create -n env1 python=3
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda create -n env1 python=3
 </code></pre></div>    </div>
     <center><img src="/software/aws/aws-21.png" alt="Create env." width="1200" /></center>
     <p><br /></p>
@@ -191,7 +194,7 @@ ssh -i aws-ec2-key-01.pem ubuntu@ec2-54-172-185-5.compute-1.amazonaws.com
   <li>
     <p>Activate the new environment you just created.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source activate env1
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source activate env1
 </code></pre></div>    </div>
     <center><img src="/software/aws/aws-22.png" alt="Activate env." width="1200" /></center>
     <p><br /></p>
@@ -199,7 +202,7 @@ ssh -i aws-ec2-key-01.pem ubuntu@ec2-54-172-185-5.compute-1.amazonaws.com
   <li>
     <p>Install some packages, ipython and jupyterlab into env1 using conda.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda install numpy pandas jupyterlab scipy matplotlib ipython
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda install numpy pandas jupyterlab scipy matplotlib ipython
 </code></pre></div>    </div>
     <center><img src="/software/aws/aws-23.png" alt="Install packages" width="1200" /></center>
     <p><br /></p>
@@ -207,7 +210,7 @@ ssh -i aws-ec2-key-01.pem ubuntu@ec2-54-172-185-5.compute-1.amazonaws.com
   <li>
     <p>Type ipython to bring up the interactive IPython shell. We will use the passd utility to create a password for our Jupyter Notebooks. Enter the password you would like to use. The IPython prompt will output an SHA key which you will need to copy and paste elsewhere where you can access it later.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ipython
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ipython
 from IPython.lib import passwd
 passwd()
 </code></pre></div>    </div>
@@ -218,7 +221,7 @@ passwd()
   <li>
     <p>Exit IPython and generate a config file for the Jupyter Notebook.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exit
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exit
 jupyter notebook --generate-config
 </code></pre></div>    </div>
 
@@ -228,7 +231,7 @@ jupyter notebook --generate-config
   <li>
     <p>Create a directory to store the certificate and cd into it.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkdir certs
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkdir certs
 cd certs
 </code></pre></div>    </div>
 
@@ -238,7 +241,7 @@ cd certs
   <li>
     <p>Create a self-signed certificate using the following command. Answer the prompted questions, you can leave most fields empty or provide your information if you wish. This will generate a certificate for us.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem
 </code></pre></div>    </div>
 
     <center><img src="/software/aws/aws-27.png" alt="Create certificate" width="1200" /></center>
@@ -247,7 +250,7 @@ cd certs
   <li>
     <p>We will now need to edit the jupyter config file.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/.jupyter
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/.jupyter
 nano jupyter_notebook_config.py
 </code></pre></div>    </div>
 
@@ -257,7 +260,7 @@ nano jupyter_notebook_config.py
   <li>
     <p>Add the following text to the top of the config file.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>c = get_config()
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>c = get_config()
 c.IPKernelApp.pylab = 'inline' 
 c.NotebookApp.certfile = u'/home/ubuntu/certs/mycert.pem' 
 c.NotebookApp.ip = '*' 
@@ -266,7 +269,7 @@ c.NotebookApp.password = u'sha1:5592963916a0:425ca0f9f2a610f96cd8532e4f1cc5df3f2
 c.NotebookApp.port = 8889
 </code></pre></div>    </div>
 
-    <p>Make sure to change the SHA key with your key, and choose a port number in the range 8888-8900. For this tutorial, we will use 8889. Save the config file (<code class="highlighter-rouge">Ctrl+S</code>) and exit the editor (<code class="highlighter-rouge">Ctrl+X</code>)</p>
+    <p>Make sure to change the SHA key with your key, and choose a port number in the range 8888-8900. For this tutorial, we will use 8889. Save the config file (<code class="language-plaintext highlighter-rouge">Ctrl+S</code>) and exit the editor (<code class="language-plaintext highlighter-rouge">Ctrl+X</code>)</p>
 
     <center><img src="/software/aws/aws-29.png" alt="Edit the jupyter config file" width="1200" /></center>
     <p><br /></p>
@@ -274,7 +277,7 @@ c.NotebookApp.port = 8889
   <li>
     <p>Change directory back to home and create a directory where you want to run Jupyter notebooks from.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ..
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ..
 mkdir notebook-dir
 cd notebook-dir
 </code></pre></div>    </div>
@@ -285,7 +288,7 @@ cd notebook-dir
   <li>
     <p>Change ownership of these items. If you skip or miss this step, you might get a “Permission Denied” error message when you try to lauch your Jupyter notebook.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo chown -R $USER /home/
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo chown -R $USER /home/
 sudo chown -R $USER ~/.local/share/jupyter/
 cd ..
 </code></pre></div>    </div>
@@ -296,12 +299,12 @@ cd ..
     <p>Note: I actually got an error for the second line, but some people needed that line to get it working. So I suggest you try it.</p>
   </li>
   <li>We are now ready to launch our Jupyter notebook. Make sure to change the IPv4 address to that of your instance.
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter notebook --ip=ec2-54-172-185-5.compute-1.amazonaws.com
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter notebook --ip=ec2-54-172-185-5.compute-1.amazonaws.com
 </code></pre></div>    </div>
     <center><img src="/software/aws/aws-31b.png" alt="Launch notebook" width="1200" /></center>
     <p><br /></p>
 
-    <p>The terminal will print out the location of the Jupyter notebook. In my case, the notebook is running at <code class="highlighter-rouge">https://ec2-54-172-185-5.compute-1.amazonaws.com:8889/</code>. Copy this (your web address) and paste into your browser.</p>
+    <p>The terminal will print out the location of the Jupyter notebook. In my case, the notebook is running at <code class="language-plaintext highlighter-rouge">https://ec2-54-172-185-5.compute-1.amazonaws.com:8889/</code>. Copy this (your web address) and paste into your browser.</p>
   </li>
   <li>
     <p>If everything worked correctly, you will get a warning that the connection is not secure. Since you know you have set it up, it is safe to proceed. Click Advanced, and Accept the Risk and Continue to proceed.</p>
@@ -317,8 +320,8 @@ cd ..
     <center><img src="/software/aws/aws-35.png" alt="Jupyter Notebook on the cloud" width="1200" /></center>
     <p><br /></p>
   </li>
-  <li>To demonstrate the flexibility offered by having an SSH connection and a Jupyter notebook on the cloud, we will run a deep learning example problem using Keras. Close the notebook browser window and use <code class="highlighter-rouge">Ctrl+C</code> twice in the terminal to shutdown the notebook server. Install keras on the remote computer and restart the notebook server. Open the address as in step 32 to open the Jupyter Notebook.
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda install keras
+  <li>To demonstrate the flexibility offered by having an SSH connection and a Jupyter notebook on the cloud, we will run a deep learning example problem using Keras. Close the notebook browser window and use <code class="language-plaintext highlighter-rouge">Ctrl+C</code> twice in the terminal to shutdown the notebook server. Install keras on the remote computer and restart the notebook server. Open the address as in step 32 to open the Jupyter Notebook.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda install keras
 jupyter notebook --ip=ec2-54-172-185-5.compute-1.amazonaws.com
 </code></pre></div>    </div>
     <center><img src="/software/aws/aws-36.png" alt="Jupyter Notebook on the cloud" width="1200" /></center>
@@ -339,7 +342,7 @@ jupyter notebook --ip=ec2-54-172-185-5.compute-1.amazonaws.com
     <p><br /></p>
   </li>
   <li>
-    <p>There you go! You have succesfully deployed a Jupyter notebook on the AWS EC2. <strong>Before you forget, make sure to close the notebook window, shut down the notebook server (<code class="highlighter-rouge">Ctrl+C</code>) and stop the EC2 instance before leaving.  If you leave the instance running and it exceeds the 750 hour free-tier, you will incur charges.</strong> To stop the instance, go to the EC2 dashboard, select the instance and Instance State -&gt; Stop instance.</p>
+    <p>There you go! You have succesfully deployed a Jupyter notebook on the AWS EC2. <strong>Before you forget, make sure to close the notebook window, shut down the notebook server (<code class="language-plaintext highlighter-rouge">Ctrl+C</code>) and stop the EC2 instance before leaving.  If you leave the instance running and it exceeds the 750 hour free-tier, you will incur charges.</strong> To stop the instance, go to the EC2 dashboard, select the instance and Instance State -&gt; Stop instance.</p>
 
     <center><img src="/software/aws/aws-42.png" alt="keras-demo-1" width="1200" /></center>
     <p><br /></p>

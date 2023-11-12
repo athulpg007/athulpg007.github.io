@@ -23,9 +23,21 @@ Jul. 2011 - Jul. 2016. GPA: 9.16/10.00.
 Dissertation: [Passive Control Of Combustion Instabilities Using Multiple Flames / Distributed Combustion Zone](https://www.researchgate.net/publication/333632783_Passive_Control_Of_Combustion_Instabilities_Using_Multiple_Flames_Distributed_Combustion_Zone)
 Advisor: Prof. S. R. Chakravarthy
 
-To view my full academic CV, click [here](./athul_cv.pdf). (Updated January 2022)
+To view my full academic CV, click [here](./athul_cv.pdf). (Updated November 2023)
 
 ### Publications
+
+See [Google Scholar](https://scholar.google.com/citations?user=XxLVDPEAAAAJ&hl=en) for full and updated list of publications.
+
+* **A. P. Girija**, [ADEPT Drag Modulation Aerocapture: Applications for Future Titan Exploration](https://doi.org/10.6125/JoAAA.202312_55(4).04), <em>Journal of Aeronautics, Astronautics and Aviation</em>, Vol. 55, No. 4, 2023. [[PDF]](./papers/joaaa-titan.pdf) 
+
+* **A. P. Girija**, R. Agrawal, Y. Lu, A. Arora, M. de Jong,S. J. Saikia, and J. M. Longuski, [A single wheel test rig for Ocean World rovers](https://doi.org/10.1016/j.jterra.2023.07.001), <em>Journal of Terramechanics</em>, Vol. 109, 2023. [[PDF]](./papers/jterra-test-rig.pdf) 
+
+* L. Iorio, **A. P. Girija**, and Daniele Durante, [One EURO for Uranus: the Elliptical Uranian Relativity Orbiter mission](https://doi.org/10.1093/mnras/stad1446), <em>Monthly Notices of the Royal Astronomical Society</em>, Vol. 523, No. 3, 2023. [[PDF]](./papers/mnras-uranus.pdf) 
+
+* **A. P. Girija**, S. J. Saikia, and J. M. Longuski, [Aerocapture: Enabling Small Spacecraft Direct Access to Low‑Circular Orbits for Planetary Constellations](https://doi.org/10.3390/aerospace10030271), <em>Aerospace</em>, Vol. 10, No. 3, 2023. [[PDF]](./papers/aerospace-10-00271.pdf) 
+
+* **A. P. Girija**, [A Flagship‑class Uranus Orbiter and Probe mission concept using aerocapture](https://doi.org/10.1016/j.actaastro.2022.10.005), <em>Acta Astronautica</em>, Vol. 202, 2023. [[PDF]](./papers/aa-uranus-orbiter-probe.pdf) 
 
 * **A. P. Girija**, S. J. Saikia, J. M. Longuski, Y. Lu and J. A. Cutts, [Quantitiative Assessment of Aerocapture and Applications to Future Solar System Exploration](https://arc.aiaa.org/doi/10.2514/1.A35214), <em>Journal of Spacecraft and Rockets</em>, Articles in Advance, February 2022. [[PDF]](./papers/1.a35214.pdf) 
 
@@ -38,8 +50,6 @@ To view my full academic CV, click [here](./athul_cv.pdf). (Updated January 2022
 
 * S. Jarmak, E. Leonard, A. Akins, E. Dahl, D. R. Cremons, S. Cofield, A. Curtis, C. Dong, E. T. Dunham, B. Journaux, D. Murakami, W. Ng, M. Piquette, **A. P. Girija**, K. Rink, L. Schurmeier, N. Stein, N. Tallarida, M. Telus, L. Lowes, C. Budney, K. L. Mitchell, [QUEST: A New Frontiers Uranus Orbiter Mission Concept Study](https://doi.org/10.1016/j.actaastro.2020.01.030), <em>Acta Astronautica</em>, Vol. 170, May 2020. [[PDF]](./papers/1-s2.0-S0094576520300412-main.pdf)
 
-
-* **A. P. Girija**, Y. Lu, A. Arora, R. Agrawal, J. Prabha, M. de Jong, B. Aiken, M. Rajapakshe, M. Kent, S. J. Saikia, and J. M. Longuski, Purdue Single Wheel Test Rig Facility for Ocean World Rovers. Forthcoming article.
 
 
 

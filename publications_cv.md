@@ -6,7 +6,7 @@ title: Publications and CV
 
 # Academic CV
 
-<img src="/photos/profile.png" alt="Photo of me taken at college graduation" width="300"/>  
+<img src="/photos/profile.png" alt="No alt text" width="300"/>  
 
 ### Education
 
@@ -15,15 +15,12 @@ title: Publications and CV
 
 Aug. 2016 - Aug. 2021; GPA: 3.90/4.00. 
 Dissertation: [A Systems Framework and Analysis Tool for Rapid Conceptual Design of Aerocapture Missions](https://hammer.purdue.edu/articles/thesis/A_Systems_Framework_and_Analysis_Tool_for_Rapid_Conceptual_Design_of_Aerocapture_Missions/14903349)
-Advisors: Dr. Sarag J. Saikia and Prof. James M. Longuski
 
 **Dual Degree (B.Tech + M. Tech ) in Aerospace Engineering**, Indian Institute of Technology (IIT), Madras with Honors. 
 
 Jul. 2011 - Jul. 2016. GPA: 9.16/10.00.  
 Dissertation: [Passive Control Of Combustion Instabilities Using Multiple Flames / Distributed Combustion Zone](https://www.researchgate.net/publication/333632783_Passive_Control_Of_Combustion_Instabilities_Using_Multiple_Flames_Distributed_Combustion_Zone)
-Advisor: Prof. S. R. Chakravarthy
 
-To view my full academic CV, click [here](./athul_cv.pdf). (Updated November 2023)
 
 ### Publications
 
